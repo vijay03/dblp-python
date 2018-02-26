@@ -70,6 +70,7 @@ PC-Papers. Each PC-Authored paper is only counted once.
 | Conference | Year | Total Papers | PC-Papers | % of PC-Papers |
 |-------------|:-------------:| -----:|----:|----:|
 POPL    | 2017 |   64 |   6   |  9.4  |
+ASPLOS  | 2017 |   56 |   7   |  12.5 |
 PLDI    | 2018 |   55 |   8   |  14.5 |  
 ATC     | 2017 |   63 |   10  |  15.9 |
 PLDI    | 2017 |   47 |   8   | 17.0  |
