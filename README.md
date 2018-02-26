@@ -77,6 +77,7 @@ Eurosys | 2017 |   41 |   7   | 17.1  |
 OSDI    | 2016 |   47 |   10  |  21.3 |
 FAST    | 2018 |   24 |   8   | 33.3  |
 SOSP    | 2017 |   39 |   14  |  35.9 |
+SIGMOD  | 2017 |   63 |   23  |  36.5 |
 SIGCOMM | 2017 |   25 |   11  |  44.0 |            
 
 PLDI 2018 information contributed by the PC Chair, Dan Grossman.
