@@ -77,7 +77,7 @@ def check_pc(conf, year, conf_short):
     print conf, year
     print "Total Papers:", total_count
     print "PC-Paper Count:", pc_count
-    print "Percentage of PC-authored papers: ", format(100.0 * pc_count/total_count, '.2f')
+    print "Percentage of PC-authored papers: ", format((100.0 * pc_count/total_count if total_count != 0 else 0), '.2f')
 
 #check_pc("sosp", "2017", "SOSP")
 #check_pc("eurosys", "2017", "EuroSys")
