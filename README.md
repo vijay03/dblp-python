@@ -1,5 +1,4 @@
 ## Counting PC-Authored Papers ##
----
 
 This script relies on DBLP to pull the papers related to a given
 conference and year. There are three things the user needs to set for
@@ -62,4 +61,19 @@ match their DBLP name for their papers. As such, it is likely it does
 not work well for authors with unicode characters in their names, and
 authors with common names. Thus, the results of this script are a
 lower bound on the number of PC-authored papers in the conference.
+
+### Results ###
+
+Results for a number of recent conferences, sorted by % of
+PC-Papers. Each PC-Authored paper is only counted once.
     
+| Conference | Year | Total Papers | PC-Papers | % of PC-Papers |
+|-------------|:-------------:| -----:|----:|----:|
+POPL    | 2017 |   64 |   6   |  9.4  |
+ATC     | 2017 |   63 |   10  |  15.9 |
+PLDI    | 2017 |   47 |   8   | 17.0  |
+Eurosys | 2017 |   41 |   7   | 17.1  |
+OSDI    | 2016 |   47 |   10  |  21.3 |
+FAST    | 2018 |   24 |   8   | 33.3  |
+SOSP    | 2017 |   39 |   14  |  35.9 |
+SIGCOMM | 2017 |   25 |   11  |  44.0 |            
