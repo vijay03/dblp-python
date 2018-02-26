@@ -1,0 +1,209 @@
+Alan Fekete - Sydney University
+Alekh Jindal - Microsoft
+Alexander Löser - Beuth University of Applied Sciences Berlin
+Alexandros Labrinidis - University of Pittsburgh
+Allison Holloway - Oracle
+Angela Bonifati - Université Lyon 1
+Ansger Scherp - Kiel University
+Anthony Tung - NUS Singapore
+Aris Anagnostopoulos - Sapienza University of Rome
+Arnab Nandi - Ohio State University
+Arvind Arasu - Microsoft Research
+Asterios Katsifodimos - TU Berlin
+Atsuyuki Morishima - University of Tsukuba
+Avrilia Floratou - IBM Research Almaden
+Azza Abouzied - NYU Abu Dhabi
+Barzan Mozafari - University of Michigan
+Bernhard Seeger - University of Marburg
+Berthold Reinwald - IBM Research Almaden
+Bin Cui - Peking University
+Bingsheng He - Nanyang Technological University
+Bolin Ding - Microsoft Research
+Bongki Moon - SNU
+Boris Glavic - Illinois Institute of Technology
+Carmem Hara - Universidade Federal do Parana
+Chee-Yong Chan - National University of Singapore
+Chengkai Li - University of Texas at Arlington
+Chi Wang - Microsoft Research
+Chris Jermaine - Rice University
+Christian König - Microsoft Research
+Cong Yu - Google
+Curtis Dyreson - Utah State University
+Cyrus Shahabi - University of Southern California
+Daisy Zhe - Wang - University of Florida
+Dan Olteanu - University of Oxford
+Daniel de Oliveira - Universidade Federal Fluminense
+David Koop - University of Massachusetts
+Davide Mottin - HPI
+Dmitri Kalashnikov - AT&T Labs Research
+Eli Cortez - Microsoft
+Elisa Bertino - Purdue University
+Eric Lo - Hong Kong Polytechnic University
+Essam Mansour - Qatar Computing Research Institute
+Eugene Wu - Columbia University
+Fabrizio Silvestri - Yahoo Research London
+Fei Chiang - McMaster University
+Feifei Li - University of Utah
+Florent Masseglia - INRIA
+Florian Kerschbaum - SAP
+George Papadakis - University of Athens
+Georgia Koutrika - Hewlett Packard Labs
+Giansalvatore Mecca - University Basilicata
+Goetz Graefe - Google
+Guoliang Li - Tsinghua University
+Hakan Ferhatosmanoglu - Bilkent University
+Hannes Voigt - TU Dresden
+Hannes Mühleisen - CWI
+Harumi Kuno - Hewlett Packard Labs
+Henrik Muehe - Google
+Holger Pirk - MIT
+Huy Vo - CUNY-CCNY
+Ihab Ilyas - University of Waterloo
+Indrakshi Ray - Colorado State University
+Ingmar Weber - Qatar Computing Research Institute
+Ippokratis Pandis - Amazon Web Services
+Ira Assent - Aarhus University
+Jaewoo Kang - Korea University
+James Cheng - Chinese University of Hong Kong
+Jeff Pound - SAP
+Jeffrey Yu - Chinese University of Hong Kong
+Jennie Duggan - Northwestern University
+Jens Teubner - TU Dortmund
+Jiaheng Lu - University of Helsinki
+Jianliang Xu - Hong Kong Baptist University
+Jignesh Patel - University of Wisconsin
+Johann Gamper - Free University of Bozen-Bolzano
+Joseph Gonzalez - UC Berkeley
+Julia Stoyanovich - Drexel University
+Julien Leblay - AIST, Japan
+Kai-Uwe Sattler - TU Ilmenau
+Karthik Sankaranarayanan - IBM Research India
+Katja Hose - Aalborg University
+Khuzaima Daudjee - University of Waterloo
+Konstantinos Karanasos - Microsoft
+Kostis Kyzirakos - Oracle Labs
+Lee Mong Li - NUS Singapore
+Lefteris Sidirourgos - CWI
+Lei Zou - Peking University
+Li Xiong - Emory University
+Luc Bouganim - INRIA
+Luciano Barbosa - IBM Research Brazil
+Lucja Kot - Cornell University
+Mahashweta Das - Hewlett Packard Labs
+Marco Serafini - Qatar Computing Research Institute
+Martin Kersten - CWI
+Masatoshi Yoshikawa - Kyoto University
+Maurice Van Keulen - TU Twente
+Maya Ramanath - IIT Delhi
+Meichun Hsu - Hewlett Packard Labs
+Meikel Poess - Oracle
+Melanie Herschel - University of Stuttgart
+Michael Benedikt - Oxford University
+Michael Bohlen - University of Zurich
+Michael Hay - Colgate University
+Michael Grossniklaus - University of Konstanz
+Mirella Moro - Universidade Federal de Minas Gerais
+Mohamed Eltabakh - Worcester Polytechnic Institute
+Mohamed Mokbel - University of Minnesota
+Mohamed Sarwat - Arizona State University
+Mohammad Sadoghi - Purdue University
+Mourad Ouzzani - Qatar Computing Research Institute
+Murat Kantarcioglu - UT Dallas
+Nan Zhang - George Washington University
+Nick Koudas - University of Toronto
+Nicolas Bruno - Microsoft Research
+Nikolaus Augsten - University of Salzburg
+Nikos Mamoulis - Hong Kong University
+Norman Paton - University of Manchester
+Oliver Kennedy - University at Buffalo
+Panagiotis Papapetrou - Stockholm University
+Panos Kalnis - KAUST
+Panos Chrysanthis - University of Pittsburgh
+Paolo Merialdo - Roma Tre University
+Paris Koutris - University of Wisconsin-Madison
+Patricia Arocena - University of Toronto
+Peter Fischer - Universität Freiburg
+Peter Bailis - Stanford University
+Peter Alvaro - University of California, Santa Cruz
+Philippe Cudre-Mauroux - University of Fribourg
+Pierangela Samarati - University of Milan
+Pinar Tozun - IBM Research
+Raghav Kaushik - Microsoft Research
+Raluca Ada Popa - UC Berkeley
+Raymond Ng - University of British Columbia
+Reynold Cheng - Hong Kong University
+Ricardo Torres - UNICAMP Brazil
+S. Sudarshan - IIT Bombay
+Sai Wu - Zhejiang University
+Sebastian Michel - University of Kaiserslautern
+Selcuk Candan - Arizona State University
+Semih Salihoglu - University of Waterloo
+Senjuti Basu Roy - New Jersey Institute of Technology
+Seung-won Hwang - Yonsei University
+Sourav Bhowmick - Nanyang Technological University
+Spyros Blanas - Ohio State University
+Srikanta Bedathur - IBM Research India
+Stavros Papadopoulos - Intel Labs and MIT
+Stefanie Scherzinger - Ostbayerische Technische Hochschule Regensburg
+Stratis Viglas - University of Edinburgh
+Sudeepa Roy - Duke University
+Sudipto Das - Microsoft Research
+Sven Helmer - Free University of Bozen-Bolzano
+Tamer Ozsu - University of Waterloo
+Theodoros Rekatsinas - Stanford University
+Thomas Heinis - Imperial College
+Todd Green - Logicblox
+Torsten Grust - University of Tuebingen
+Tyson Condie - UCLA
+Umar Farooq Minhas - IBM Research
+Uwe Röhm - University of Sydney
+Verena Kantere - University of Geneva
+Viktor Leis - TU München
+Vivek Narasayya - Microsoft Research
+Wei Wang - University of New South Wales
+Wenchao Zhou - Georgetown University
+Wendy Wang - Stevens Institute of Technology
+Xiaochun Yang - Northeastern University, China
+Xiaodong Zhang - Ohio State University
+Xiaofang Zhou - University of Queensland
+Xiaohui Yu - York University
+Xiaoyang Wang - Fudan University
+Xin Luna Dong - Google
+Yannis Manolopoulos - Aristotle University of Thessaloniki
+Yannis Velegrakis - University of Trento
+Yeye He - Microsoft Research
+Yi Chen - New Jersey Institute of Technology
+Yinan Li - Microsoft Research
+Yizhou Sun - Northeastern University
+Yoshiharu Ishikawa - Nagoya University
+Yuanyuan Tian - IBM Research (Almaden)
+Yufei Tao - University of Queensland
+Zhao Cao - Beijing Institute of Technology
+Zhifeng Bao - RMIT University
+Zoi Kaoudi - Qatar Computing Research Institute
+Adam Silberstein - Trifacta
+Albert Maier - IBM Germany
+Amit Rustagi - SanDisk
+Badrish Chandramouli - Microsoft Research
+Benjamin Schlegel - Oracle
+Berthold Reinwald - IBM Almaden
+Brian Cooper - Google
+Donald Kossmann - ETH Zuerich
+Fatma Özcan - IBM Research
+Gjergji Kasneci - Schufa Holding AG
+Goetz Graefe - Google
+Gregor Hackenbroich - SAP
+James Terwilliger - Microsoft
+Jun Rao - Confluent
+Justin Levandoski - Microsoft Research
+Laura Haas - IBM Almaden
+Matthias Weidlich - Humboldt-Universität zu Berlin
+Michael Waas - Datometry Inc.
+Niloy Mukherjee - LinkedIn
+Reynold Xin - Databricks
+Ryan Stutsman - University of Utah
+Sang Kyun Cha - Seoul National University
+Sergey Melnik - Google
+Tamraparni Dasu - AT&T Research
+Wolfgang Lehner - Technische Universität Dresden
+Zbigniew Jerzak - SAP

@@ -1,0 +1,50 @@
+John Carter,IBM
+Jade Alglave, Microsoft Research Cambridge and University College London
+David Andersen, Carnegie Mellon University
+Yungang Bao, ICT - Chinese Academy of Sciences
+Muli Ben-Yehuda, LightBits Labs
+Ricardo Bianchini, Microsoft Research
+Haibo Chen, Shanghai Jaitong University
+Liqun Cheng, Google
+Wenguang Chen, Tsinghua University
+Fred Chong, University of Chicago
+Eric Chung, Microsoft Research
+John Criswell, University of Rochester
+Christina Delimitrou, Cornell University
+Angela Demke Brown, University of Toronto
+Chen Ding, University of Rochester
+Lieven Eeckhout, Ghent University
+Elmootazbellah Elnozay, King Abdullah University of Science and Technology (Saudi Arabia)
+Natalie Enright Jerger, University of Toronto
+Chris Fletcher, Massachusetts Institute of Technology
+Jason Flinn, University of Michigan
+Ada Gavrilovska, Georgia Institute of Technology
+Qi Guo, ICT, Cambricon Tech.
+Sudhanva Gurumurthi, IBM
+Kim Hazelwood, Facebook
+Wilson Hsieh, Google
+Hillery Hunter, IBM Research
+Martha Kim, Columbia University
+Benjamin Lee, Duke University
+Shan Lu, University of Chicago
+Srilatha Manne, Cavium
+Tipp Moseley, Google
+David Nellans, Nvidia
+Mark Oskin, University of Washington
+John Regehr, University of Utah
+Adrian Sampson, Cornell University
+Vivek Sarkar, Rice University
+Marc Shapiro, INRIA
+Xipeng Shen, North Carolina State University
+Arrvindh Shriraman, Simon Fraser University
+Armando Solar-Lezama, Massachusetts Institute of Technology
+Yan Solihin, North Carolina State University
+Karin Strauss, Microsoft Research and University of Washington
+Michael Swift, University of Wisconsin
+Lingjia Tang, University of Michigan
+Mohit Tiwari, University of Texas - Austin
+Haris Volos, Hewlett-Packard Enterprise
+Emmett Witchel, University of Texas - Austin
+Ming Wu, Microsoft Research
+Guoqing Xu, University of California - Irvine
+Lidong Zhou, Microsoft Research
