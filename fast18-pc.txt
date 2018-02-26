@@ -1,0 +1,31 @@
+Andrea C. Arpaci-Dusseau, University of Wisconsin—Madison
+Anirudh Badam, Microsoft Research
+Mahesh Balakrishnan, Yale
+Pramod Bhatotia, University of Edinburgh
+Andre Brinkmann, Johannes Gutenberg-University Mainz
+Vijay Chidambaram, University of Texas at Austin
+Angela Demke Brown, University of Toronto
+Kevin Greenan, Box Inc.
+Jorge Guerra, VMWare
+Haryadi S. Gunawi, University of Chicago
+Dean Hildebrand, Google
+Cheng Huang, Microsoft Azure
+Hong Jiang, University of Texas at Arlington
+Umesh Maheshwari, Nimble Storage (an HPE company)
+Arif Merchant, Google
+Ethan L. Miller, University of California, Santa Cruz, and PureStorage
+Dushyanth Narayanan, Microsoft Research
+Ed Nightingale, Microsoft Research
+Sam H. Noh, UNIST (Ulsan National Institute of Science and Technology)
+Vijayan Prabhakaran, Amazon
+Bianca Schroeder, University of Toronto
+Philip Shilane, Dell EMC
+Keith A. Smith, NetApp
+Vasily Tarasov, IBM Research
+Cristian Ungureanu, Google
+Ashish Vulimiri, Samsung Research
+Andrew Warfield, University of British Columbia
+Sage Weil, Red Hat
+Youjip Won, Hanyang University
+Gala Yadgar, Technion - Israel Institute of Technology
+Ming Zhao, Arizona State University

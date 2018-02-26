@@ -1,0 +1,29 @@
+Top 25 Authors:
+1 M. Frans Kaashoek 30
+2 Henry M. Levy 19
+3 Nickolai Zeldovich 19
+4 Barbara Liskov 15
+5 Andrea C. Arpaci-Dusseau 15
+6 Remzi H. Arpaci-Dusseau 15
+7 Brian N. Bershad 15
+8 Jason Flinn 14
+9 Ion Stoica 13
+10 David Mazières 13
+11 Yuanyuan Zhou 13
+12 Roger M. Needham 13
+13 Thomas E. Anderson 12
+14 Dawson R. Engler 12
+15 Miguel Castro 12
+16 Larry L. Peterson 12
+17 Robert Morris 11
+18 Peter Druschel 11
+19 Junfeng Yang 11
+20 Michael Dahlin 11
+21 David R. Cheriton 11
+22 Peter M. Chen 10
+23 Emmett Witchel 10
+24 Eddie Kohler 10
+25 Lorenzo Alvisi 10
+96 Christopher J. Rossbach 5
+99 Simon Peter 5
+361 Vijay Chidambaram 2

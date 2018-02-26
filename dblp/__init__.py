@@ -8,6 +8,9 @@ DBLP_AUTHOR_SEARCH_URL = DBLP_BASE_URL + 'search/author'
 DBLP_PERSON_URL = DBLP_BASE_URL + 'pers/xk/{urlpt}'
 DBLP_PUBLICATION_URL = DBLP_BASE_URL + 'rec/bibtex/{key}.xml'
 
+DBLP_VENUE_URL = DBLP_BASE_URL + 'pers/xk/{urlpt}'
+DBLP_PUB_SEARCH_URL = DBLP_BASE_URL + 'search/publ/api'
+
 class LazyAPIData(object):
     def __init__(self, lazy_attrs):
         self.lazy_attrs = set(lazy_attrs)
@@ -97,11 +100,17 @@ class Publication(LazyAPIData):
     def __init__(self, key):
         self.key = key
         self.xml = None
-        super(Publication, self).__init__( ['type', 'sub_type', 'mdate',
-                'authors', 'editors', 'title', 'year', 'month', 'journal',
-                'volume', 'number', 'chapter', 'pages', 'ee', 'isbn', 'url',
-                'booktitle', 'crossref', 'publisher', 'school', 'citations',
-                'series'])
+        super(Publication, self).__init__( ['type', 'sub_type',
+                                            'mdate', 'authors',
+                                            'editors', 'title',
+                                            'year', 'month',
+                                            'journal', 'venue',
+                                            'volume', 'number',
+                                            'chapter', 'pages', 'ee',
+                                            'isbn', 'url',
+                                            'booktitle', 'crossref',
+                                            'publisher', 'school',
+                                            'citations', 'series'])
 
     def load_data(self):
         resp = requests.get(DBLP_PUBLICATION_URL.format(key=self.key))
@@ -121,6 +130,7 @@ class Publication(LazyAPIData):
             'year':int(first_or_none(publication.xpath('year/text()'))),
             'month':first_or_none(publication.xpath('month/text()')),
             'journal':first_or_none(publication.xpath('journal/text()')),
+            'venue':first_or_none(publication.xpath('venue/text()')),
             'volume':first_or_none(publication.xpath('volume/text()')),
             'number':first_or_none(publication.xpath('number/text()')),
             'chapter':first_or_none(publication.xpath('chapter/text()')),
@@ -145,3 +155,56 @@ def search(author_str):
     #TODO error handling
     root = etree.fromstring(resp.content)
     return [Author(urlpt) for urlpt in root.xpath('/authors/author/@urlpt')]
+
+def searchvenue(venue_str):
+    resp = requests.get(DBLP_PUB_SEARCH_URL, params={'q':venue_str})
+    #TODO error handling
+    root = etree.fromstring(resp.content)
+    return [Publication(url) for url in root.xpath('//info/key/text()')]
+
+def getvenueauthors(venue_str, venue_short):
+    resp = requests.get(DBLP_PUB_SEARCH_URL, params={'q':venue_str, 'h':100})
+    #TODO error handling
+    root = etree.fromstring(resp.content)
+    ans = []
+    for x in root.findall(".//info/[venue='" + venue_short + "']/../"):
+        ptext = [y.text for y in x.findall("./pages")]
+        ttext = [y.text for y in x.findall(".title")]
+        # Ignore proceedings
+        if ttext and "Proceedings" in ttext[0]:
+            continue
+        # If there is no page information, add all entries anyway
+        if not ptext:
+            ans.extend([y.text for y in x.findall("./authors/author")])
+        if ptext:
+            if "-" in ptext[0]:
+                a, b = ptext[0].split("-")
+                if (int(b) - int(a)) > 5:
+                    ans.extend([y.text for y in x.findall("./authors/author")])
+    return ans
+
+def getvenueauthorsbypaper(venue_str, venue_short):
+    resp = requests.get(DBLP_PUB_SEARCH_URL, params={'q':venue_str, 'h':100})
+    #TODO error handling
+    root = etree.fromstring(resp.content)
+    ans = []
+    each_ans = []
+    for x in root.findall(".//info/[venue='" + venue_short + "']/../"):
+        ptext = [y.text for y in x.findall("./pages")]
+        ttext = [y.text for y in x.findall(".title")]
+        # Ignore proceedings
+        if ttext and "Proceedings" in ttext[0]:
+            continue
+        # If there is no page information, add all entries anyway
+        if not ptext:
+            each_ans = [y.text for y in x.findall("./authors/author")]
+        if ptext:
+            if "-" in ptext[0]:
+                a, b = ptext[0].split("-")
+                if (int(b) - int(a)) > 5:
+                    each_ans = [y.text for y in x.findall("./authors/author")]
+
+        if len(each_ans) > 0:
+            ans.append(each_ans)
+                    
+    return ans

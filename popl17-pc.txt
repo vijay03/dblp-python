@@ -1,0 +1,29 @@
+Andrew D. Gordon
+Martin Abadi
+Josh Berdine
+Johannes Borgström
+Avik Chaudhuri
+Adam Chlipala
+Derek Dreyer
+Kathleen Fisher
+Marco Gaboardi
+Ronald Garcia
+Cătălin Hriţcu
+Bart Jacobs
+Ranjit Jhala
+Limin Jia
+Zachary Kincaid
+Dexter Kozen
+Akash Lal
+Isabella Mastroeni
+Andrew Myers
+Michele Pagani
+Mooly Sagiv
+Ilya Sergey
+Sharon Shoham
+Rishabh Singh
+Sam Staton
+Eijiro Sumii
+David Van Horn
+Nobuko Yoshida
+Francesco Zappa Nardelli

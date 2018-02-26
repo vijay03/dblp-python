@@ -1,0 +1,48 @@
+Nitin Agrawal, Samsung Labs
+Andrea C. Arpaci-Dusseau, University of Wisconsin—Madison
+Sujata Banerjee, Hewlett Packard Labs
+Andrew Baumann, Microsoft Research Redmond
+Jeff Chase, Duke University
+Peter Chen, University of Michigan
+Byung-Gon Chun, Seoul National University
+Jeff Dean, Google
+Amol Deshpande, University of Maryland
+Peter Druschel, Max Planck Institute for Software Systems (MPI-SWS)
+Sasha Fedorova, University of British Columbia
+Bryan Ford, École Polytechnique Fédérale de Lausanne (EPFL)
+Roxana Geambasu, Columbia University
+Philip Gibbons, Carnegie Mellon University
+Saikat Guha, Microsoft Research India
+Gernot Heiser, NICTA and University of New South Wales
+Y. Charlie Hu, Purdue University
+Galen Hunt, Microsoft Research Redmond
+Rebecca Isaacs, Google
+Michael Kaminsky, Intel Labs
+Randy Katz, University of California, Berkeley
+Dejan Kostic, KTH Royal Institute of Technology
+Tim Kraska, Brown University
+Orran Krieger, Boston University
+Phil Levis, Stanford University
+Boon Loo, University of Pennsylvania
+Shan Lu, University of Chicago
+Petros Maniatis, Google
+Z. Morley Mao, University of Michigan
+Frank McSherry, ETH Zurich
+James Mickens, Harvard University
+Thomas Moscibroda, Microsoft Research China
+Dushyanth Narayanan, Microsoft Research Cambridge
+Sam H. Noh, UNIST (Ulsan National Institute of Science & Technology)
+KyoungSoo Park, Korea Advanced Institute of Science and Technology (KAIST)
+Simon Peter, The University of Texas at Austin
+George Porter, University of California, San Diego
+Dan R. K. Ports, University of Washington
+Chris Rossbach, VMware Research and The University of Texas at Austin
+Michael Scott, University of Rochester
+Margo Seltzer, Harvard School of Engineering and Applied Sciences and Oracle
+Dawn Song, University of California, Berkeley
+Michael Stumm, University of Toronto
+Patrick Traynor, University of Florida
+Dan Tsafrir, Technion—Israel Institute of Technology
+Robert Watson, University of Cambridge
+Ellen Zegura, Georgia Institute of Technology
+Zheng Zhang, NYU Shanghai

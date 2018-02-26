@@ -1,0 +1,35 @@
+Rachit Agarwal, Cornell University
+Nadav Amit, VMware Research Group
+Mona Attariyan, Google
+Sorav Bansal, Indian Institute of Technology Delhi
+Adam Bates, University of Illinois at Urbana-Champaign
+Justin Cappos, New York University Tandon School of Engineering
+Rong Chen, Shanghai Jiao Tong University
+Mihai Christodorescu, Qualcomm Research
+Charlie Curtsinger, Grinnell College
+Christina Delimitrou, Cornell University
+Fred Douglis, Dell EMC
+Eric Eide, University of Utah
+Ittay Eyal, Cornell University
+Ada Gavrilovska, Georgia Institute of Technology
+Vishakha Gupta, Intel Labs
+Michio Honda, NEC Laboratories Europe
+Yu Hua, Huazhong University of Science and Technology
+Peng (Ryan) Huang, Microsoft Research and Johns Hopkins University
+Taesoo Kim, Georgia Institute of Technology
+Eddie Kohler, Harvard University
+Jean-Pierre Lozi, Université Nice Sophia Antipolis
+Gilles Muller, Inria
+Donald E. Porter, University of North Carolina at Chapel Hill and
+Fortanix
+Christopher J. Rossbach, The University of Texas at Austin and VMware
+Research Group
+Ji-Yong Shin, Yale University
+Liuba Shrira, Brandeis University
+Nisha Talagala, Parallel Machines
+Chunqiang Tang, Facebook
+Theodore Ts'o, Google
+Dan Tsafrir, Technion—Israel Institute of Technology
+Dan Williams, IBM T.J. Watson Research Center
+David Wolinsky, Facebook
+Timothy Wood, George Washington University

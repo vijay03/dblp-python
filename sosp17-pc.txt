@@ -1,0 +1,55 @@
+Marcos K. Aguilera, VMware Research Group
+Aditya Akella, University of Wisconsin–Madison
+Lorenzo Alvisi, Cornell University
+Remzi Arpaci-Dusseau, University of Wisconsin–Madison
+Emery Berger, UMass Amherst
+George Candea, EPFL
+Miguel Castro, Microsoft
+Haibo Chen, Shanghai Jiao Tong University
+Wenguang Chen, Tsinghua University
+Peter Chen, University of Michigan
+Byung-Gon Chun,    Seoul National University
+Landon Cox, Duke University
+Mike Dahlin, Google
+Peter Druschel, MPI-SWS
+Jason Flinn, University of Michigan
+Roxana Geambasu, Columbia University
+Johannes Gehrke, Microsoft
+Cristiano Giuffrida, Vrije Universiteit Amsterdam
+Ashvin Goel, University of Toronto
+Andreas Haeberlen, University of Pennsylvania
+Tim Harris, Oracle
+Gernot Heiser, UNSW Australia and Data61
+Henry Hoffmann, University of Chicago
+Jon Howell, Google
+Rebecca Isaacs, Google
+Frans Kaashoek, MIT
+Manos Kapritsos, University of Michigan
+Brad Karp, University College London
+Eddie Kohler, Harvard University
+Ramakrishna Kotla, Amazon
+Arvind Krishnamurthy, University of Washington
+Jay Lorch, Microsoft
+Shan Lu, University of Chicago
+James Mickens, Harvard University
+Thomas Moscibroda, Microsoft
+Madanlal Musuvathi, Microsoft
+John Ousterhout, Stanford University
+Simon Peter, University of Texas at Austin
+Don Porter, UNC-Chapel Hill
+Dan Ports, University of Washington
+Michael Reiter, UNC-Chapel Hill
+Rodrigo Rodrigues, IST (U. Lisboa) and INESC-ID
+Chris Rossbach, University of Texas at Austin
+Marco Serafini, Qatar Computing Research Institute
+Mark Silberstein, Technion-Israel Institute of Technology
+Ion Stoica, UC Berkeley
+Michael Swift, University of Wisconsin–Madison
+Doug Terry, Amazon Web Services
+Robbert van Renesse, Cornell University
+Geoffrey M. Voelker, UC San Diego
+Michael Walfish, New York University
+Junfeng Yang, Columbia University
+Ding Yuan, University of Toronto
+Nickolai Zeldovich, MIT
+Yuanyuan Zhou, UC San Diego
