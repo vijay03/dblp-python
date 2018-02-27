@@ -81,11 +81,11 @@ def check_pc(conf, year, conf_short):
             if xx == "Yuanyuan Zhou 0001":
                 if "Yuanyuan Zhou" in pc[year][conf]:
                     pc_count += 1
-                    continue
+                    break
             if xx in pc[year][conf]:
                 pc_count += 1
                 # Uncomment if you want to see which papers are PC-authored
-                print xx, x, pc_count
+                # print xx, x, pc_count
                 break
 
     print
@@ -94,15 +94,15 @@ def check_pc(conf, year, conf_short):
     print "PC-Paper Count:", pc_count
     print "Percentage of PC-authored papers: ", format((100.0 * pc_count/total_count if total_count != 0 else 0), '.2f')
 
-#check_pc("sosp", "2017", "SOSP")
-#check_pc("eurosys", "2017", "EuroSys")
-#check_pc("fast", "2018", "FAST")
-#check_pc("osdi", "2016", "OSDI")
-#check_pc("usenix", "2017", "USENIX Annual Technical Conference")
-#check_pc("popl", "2017", "POPL")
-#check_pc("pldi", "2017", "PLDI")
-#check_pc("sigcomm", "2017", "SIGCOMM")
-#check_pc("sigmod", "2017", "SIGMOD Conference")
-#check_pc("asplos", "2017", "ASPLOS")
+check_pc("sosp", "2017", "SOSP")
+check_pc("eurosys", "2017", "EuroSys")
+check_pc("fast", "2018", "FAST")
+check_pc("osdi", "2016", "OSDI")
+check_pc("usenix", "2017", "USENIX Annual Technical Conference")
+check_pc("popl", "2017", "POPL")
+check_pc("pldi", "2017", "PLDI")
+check_pc("sigcomm", "2017", "SIGCOMM")
+check_pc("sigmod", "2017", "SIGMOD Conference")
+check_pc("asplos", "2017", "ASPLOS")
 check_pc("isca", "2017", "ISCA")
 

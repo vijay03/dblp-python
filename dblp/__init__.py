@@ -184,7 +184,7 @@ def getvenueauthors(venue_str, venue_short):
     return ans
 
 def getvenueauthorsbypaper(venue_str, venue_short):
-    resp = requests.get(DBLP_PUB_SEARCH_URL, params={'q':venue_str, 'h':100})
+    resp = requests.get(DBLP_PUB_SEARCH_URL, params={'q':venue_str, 'h':1000})
     #TODO error handling
     root = etree.fromstring(resp.content)
     ans = []
