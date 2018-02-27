@@ -1,0 +1,70 @@
+Aamer Jaleel - Nvidia
+Abdullah Muzahid - UT San Antonio
+Abhishek Bhattacharjee - Rutgers
+Adrian Sampson - Cornell
+Alper Buyuktosunoglu - IBM
+Antonia Zhai - U.Minnesota
+Antonio Gonzalez - UPC
+Babak Falsafi - EPFL
+Benjamin Lee - Duke
+Brandon Lucia - CMU
+Carol-Jean Wu - Arizona State
+Chia-Lin Yang - National Taiwan University
+Chris Batten - Cornell
+Chris Wilkerson - Intel
+Christina Delimitrou - Cornell
+Daniel Sorin - Duke University
+Daniel Sanchez - MIT
+Doug Burger - Microsoft
+Drew Hilton - Duke
+G. Edward Suh - Cornell
+Emre Ozer - ARM Research
+Hadi Esmaeilzadeh - Georgia Tech
+James Hoe - CMU
+Jangwoo Kim - Seoul National University
+Josep Torrellas - UIUC
+Jun Yang - Pittsburgh
+Jung Ho Ahn - Seoul National University
+Karu Sankaralingam - Wisconsin
+Kei Hiraki - U.Tokyo
+Kim Hazelwood - Facebook
+Koji Inoue - Kyushu University
+Kunle Olukotun - Stanford
+Lieven Eeckhout - Ghent Univ.
+Lingjia Tang - Michigan
+Lisa Wu - Berkeley
+Lizy John - UT Austin
+Luis Ceze - Washington
+Martha Kim - Columbia
+Mattan Erez - UT Austin
+Michael Ferdman - Stony Brook University
+Michael Taylor - UCSD
+Mike O'Connor - Nvidia
+Moinuddin Qureshi - Georgia Tech
+Nam Sung Kim - UIUC
+Natalie Enright-Jerger - U.Toronto
+Omer Khan - Connecticut
+Onur Mutlu - ETH
+Paul Whatmough - Harvard
+Paul Gratz - Texas A&M
+Pierre Michaud - INRIA
+Qiang Wu - Facebook
+Rajeev Balasubramonian - Utah
+Ramon Canal - UPC-Barcelona Tech
+Ravi Iyer - Intel
+Reetuparna Das - Michigan
+Russ Joseph - Northwestern
+Sally McKee - Rambus and Chalmers University of Technology
+Sandhya Dwarkadas - Rochester
+Shih-Lien Lu - TSMC
+Simha Sethumadhavan - Columbia/Chip Scan
+Yakun Sophia Shao - Nvidia
+Sreenivas Subramoney - Intel
+Steve Swanson - UCSD
+Tao Li - University of Florida/NSF
+Vijay Janapa Reddi - UT Austin
+Viji Srinivasan - IBM
+Xiaoyao Liang - Shanghai Jiao Tong University
+Xuehai Qian - USC
+Yan Solihin - NSF/NC State
+Yiannakis Sazeides - U. of Cyprus
