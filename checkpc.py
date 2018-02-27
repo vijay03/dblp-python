@@ -38,6 +38,11 @@ for x in open("popl18-pc.txt", "r"):
     xx = x.split(",")
     pc["2018"]["popl"].append(xx[0])
 
+# - for isca    
+for x in open("isca17-pc.txt", "r"):
+    xx = x.split("-")
+    pc["2017"]["isca"].append(xx[0].strip())
+    
 # special for popl 17, just use names as is
 for x in open("popl17-pc.txt", "r"):
     pc["2017"]["popl"].append(x.strip())
@@ -48,6 +53,16 @@ for x in open("pldi17-pc.txt", "r"):
 for x in open("sigcomm17-pc.txt", "r"):
     pc["2017"]["sigcomm"].append(x.strip())
 
+for x in open("sigmod17-pc.txt", "r"):
+    pc["2017"]["sigmod"].append(x.strip())
+
+for x in open("vldb17-pc.txt", "r"):
+    pc["2017"]["vldb"].append(x.strip())
+
+for x in open("asplos17-pc.txt", "r"):
+    xx = x.split(",")
+    pc["2017"]["asplos"].append(xx[0])
+    
 # The main heart of the logic. 'conf', 'conf_short' both need to be
 # the values that DBLP sees for this conference. See the many examples
 # to identify the values for the conference you are interested in.
@@ -70,7 +85,7 @@ def check_pc(conf, year, conf_short):
             if xx in pc[year][conf]:
                 pc_count += 1
                 # Uncomment if you want to see which papers are PC-authored
-                #print xx, x, pc_count
+                print xx, x, pc_count
                 break
 
     print
@@ -83,7 +98,11 @@ def check_pc(conf, year, conf_short):
 #check_pc("eurosys", "2017", "EuroSys")
 #check_pc("fast", "2018", "FAST")
 #check_pc("osdi", "2016", "OSDI")
-check_pc("usenix", "2017", "USENIX Annual Technical Conference")
+#check_pc("usenix", "2017", "USENIX Annual Technical Conference")
 #check_pc("popl", "2017", "POPL")
 #check_pc("pldi", "2017", "PLDI")
 #check_pc("sigcomm", "2017", "SIGCOMM")
+#check_pc("sigmod", "2017", "SIGMOD Conference")
+#check_pc("asplos", "2017", "ASPLOS")
+check_pc("isca", "2017", "ISCA")
+
