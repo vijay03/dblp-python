@@ -1,0 +1,30 @@
+Marcos K. Aguilera, VMware
+Gustavo Alonso, ETH Zurich
+Andrew Baumann, MSR Redmond
+Herbert Bos, Vrije Universiteit
+Eric Brewer, UC Berkeley, Google
+Miguel Castro, MSR Cambridge
+Luis Ceze, U.Washington
+Haibo Chen, Shanghai Jiao Tong
+Landon Cox, Duke
+Angela Demke Brown, U.Toronto
+Ulfar Erlingsson, Google
+Alexandra Fedorova, Simon Fraser
+Bryan Ford, Yale
+Steven Hand, Google
+Tim Harris, Oracle Labs
+Michael Kaminsky, Intel Labs
+Brad Karp, UCL
+Terence Kelly, HP Labs
+Eddie Kohler, Harvard
+James Larus, EPFL
+Shan Lu, U. Chicago
+Petros Maniatis, Google
+Jeff Mogul, Google
+Jason Nieh, Columbia
+Steve Swanson, UC San Diego
+Mike Swift, U.Wisconsin
+Michael Walfish, NYU
+Hakim Weatherspoon, Cornell
+Emmett Witchel, UT Austin
+Nickolai Zeldovich, MIT

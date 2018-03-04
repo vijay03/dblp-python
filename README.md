@@ -69,17 +69,18 @@ PC-Papers. Each PC-Authored paper is only counted once.
     
 | Conference | Year | Total Papers | PC-Papers | % of PC-Papers |
 |-------------|:-------------:| -----:|----:|----:|
-POPL    | 2017 |   64 |   6   |  9.4  |
-ASPLOS  | 2017 |   56 |   7   |  12.5 |
-PLDI    | 2018 |   55 |   8   |  14.5 |  
-ATC     | 2017 |   63 |   10  |  15.9 |
-PLDI    | 2017 |   47 |   8   | 17.0  |
-Eurosys | 2017 |   41 |   7   | 17.1  |
-OSDI    | 2016 |   47 |   10  |  21.3 |
-ISCA    | 2017 |   54 |   17  | 31.5  |
-FAST    | 2018 |   24 |   8   | 33.3  |
-SIGMOD  | 2017 |  102 |  35   |  34.3 |
-SOSP    | 2017 |   39 |   14  |  35.9 |
-SIGCOMM | 2017 |   36 |   14  |  38.9 |            
+POPL    | 2017 |   64 |    6   |  9.4  |
+ASPLOS  | 2017 |   56 |    7   |  12.5 |
+PLDI    | 2018 |   55 |    8   |  14.5 |  
+ATC     | 2017 |   63 |   10   |  15.9 |
+PLDI    | 2017 |   47 |    8   |  17.0 |
+Eurosys | 2017 |   41 |    7   |  17.1 |
+OSDI    | 2016 |   47 |   10   |  21.3 |
+SOSP    | 2015 |   30 |    7   |  23.3 |
+ISCA    | 2017 |   54 |   17   |  31.5 |
+FAST    | 2018 |   24 |    8   |  33.3 |
+SIGMOD  | 2017 |  102 |   35   |  34.3 |
+SOSP    | 2017 |   39 |   14   |  35.9 |
+SIGCOMM | 2017 |   36 |   14   |  38.9 |            
 
 PLDI 2018 information contributed by the PC Chair, Dan Grossman.

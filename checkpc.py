@@ -18,6 +18,10 @@ for x in open("sosp17-pc.txt", 'r'):
     xx = x.split(",")
     pc["2017"]["sosp"].append(xx[0])
 
+for x in open("sosp15-pc.txt", 'r'):
+    xx = x.split(",")
+    pc["2015"]["sosp"].append(xx[0])
+    
 for x in open("eurosys17-pc.txt", "r"):
     xx = x.split(",")
     pc["2017"]["eurosys"].append(xx[0])
@@ -105,4 +109,5 @@ check_pc("sigcomm", "2017", "SIGCOMM")
 check_pc("sigmod", "2017", "SIGMOD Conference")
 check_pc("asplos", "2017", "ASPLOS")
 check_pc("isca", "2017", "ISCA")
+check_pc("sosp", "2015", "SOSP")
 
