@@ -82,5 +82,6 @@ FAST    | 2018 |   24 |    8   |  33.3 |
 SIGMOD  | 2017 |  102 |   35   |  34.3 |
 SOSP    | 2017 |   39 |   14   |  35.9 |
 SIGCOMM | 2017 |   36 |   14   |  38.9 |            
-
+SIGCOMM | 2016 |   39 |   22   |  56.4 |            
+    
 PLDI 2018 information contributed by the PC Chair, Dan Grossman.

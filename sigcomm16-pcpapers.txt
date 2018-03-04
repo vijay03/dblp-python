@@ -38,17 +38,3 @@ Cellular Networks.
 21 Sachin Katti : Neutral Net Neutrality.
 22 Deepak Ganesan : Enabling Practical Backscatter Communication for
 On-body Sensors.
-
-Mohammad Alizadeh 4
-Vyas Sekar 3
-Deepak Ganesan 2
-Aditya Akella 2
-Ramesh Govindan 2
-Ratul Mahajan 2
-Ethan Katz-Bassett 1
-Sylvia Ratnasamy 1
-Swarun Kumar 1
-Minlan Yu 1
-Nick Feamster 1
-Srikanth Kandula 1
-Sachin Katti 1
