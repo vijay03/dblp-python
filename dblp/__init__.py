@@ -205,6 +205,9 @@ def getvenueauthorsbypaper(venue_str, venue_short):
                     each_ans = [y.text for y in x.findall("./authors/author")]
 
         if len(each_ans) > 0:
-            ans.append(each_ans)
+            fans = []
+            fans.append(ttext)
+            fans.append(each_ans)
+            ans.append(fans)
                     
     return ans

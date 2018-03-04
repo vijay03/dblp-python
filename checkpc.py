@@ -4,6 +4,9 @@ import operator
 import pickle
 from collections import defaultdict
 
+#verbose = True
+verbose = False
+
 pc = {}
 pc["2015"] = defaultdict(list)
 pc["2016"] = defaultdict(list)
@@ -57,6 +60,9 @@ for x in open("pldi17-pc.txt", "r"):
 for x in open("sigcomm17-pc.txt", "r"):
     pc["2017"]["sigcomm"].append(x.strip())
 
+for x in open("sigcomm16-pc.txt", "r"):
+    pc["2016"]["sigcomm"].append(x.strip())
+    
 for x in open("sigmod17-pc.txt", "r"):
     pc["2017"]["sigmod"].append(x.strip())
 
@@ -74,13 +80,16 @@ for x in open("asplos17-pc.txt", "r"):
 # pc[year][conf] needs to be setup before check_pc is invoked.
     
 def check_pc(conf, year, conf_short):
+    pc_papers = {}
+    pc_papers_titles = set()
     total_count = 0
     pc_count = 0
     conf = conf.lower()
     a = dblp.getvenueauthorsbypaper("/conf/" + conf.lower() + "/" + str(year), conf_short)
     for x in a:
+        #print x
         total_count += 1
-        for xx in x:
+        for xx in x[1]:
             # Need to put in more hacks like this unfortunately
             if xx == "Yuanyuan Zhou 0001":
                 if "Yuanyuan Zhou" in pc[year][conf]:
@@ -89,7 +98,10 @@ def check_pc(conf, year, conf_short):
             if xx in pc[year][conf]:
                 pc_count += 1
                 # Uncomment if you want to see which papers are PC-authored
-                # print xx, x, pc_count
+                if verbose:
+                    print pc_count, xx, ":", x[0][0]
+                pc_papers[xx] = pc_papers.get(xx, 0) + 1
+                pc_papers_titles.add(x[0][0])
                 break
 
     print
@@ -97,17 +109,22 @@ def check_pc(conf, year, conf_short):
     print "Total Papers:", total_count
     print "PC-Paper Count:", pc_count
     print "Percentage of PC-authored papers: ", format((100.0 * pc_count/total_count if total_count != 0 else 0), '.2f')
+    if verbose:
+        print len(pc_papers_titles)
+        for pp in sorted(pc_papers.items(), key=operator.itemgetter(1), reverse=True):
+            print pp[0], pp[1]
 
-check_pc("sosp", "2017", "SOSP")
-check_pc("eurosys", "2017", "EuroSys")
-check_pc("fast", "2018", "FAST")
-check_pc("osdi", "2016", "OSDI")
-check_pc("usenix", "2017", "USENIX Annual Technical Conference")
-check_pc("popl", "2017", "POPL")
-check_pc("pldi", "2017", "PLDI")
-check_pc("sigcomm", "2017", "SIGCOMM")
-check_pc("sigmod", "2017", "SIGMOD Conference")
-check_pc("asplos", "2017", "ASPLOS")
-check_pc("isca", "2017", "ISCA")
-check_pc("sosp", "2015", "SOSP")
+# check_pc("sosp", "2017", "SOSP")
+# check_pc("eurosys", "2017", "EuroSys")
+# check_pc("fast", "2018", "FAST")
+# check_pc("osdi", "2016", "OSDI")
+# check_pc("usenix", "2017", "USENIX Annual Technical Conference")
+# check_pc("popl", "2017", "POPL")
+# check_pc("pldi", "2017", "PLDI")
+# check_pc("sigcomm", "2017", "SIGCOMM")
+# check_pc("sigmod", "2017", "SIGMOD Conference")
+# check_pc("asplos", "2017", "ASPLOS")
+# check_pc("isca", "2017", "ISCA")
+# check_pc("sosp", "2015", "SOSP")
+check_pc("sigcomm", "2016", "SIGCOMM")
 

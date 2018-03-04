@@ -1,0 +1,54 @@
+1 Ratul Mahajan : Don't Mind the Gap - Bridging Network-wide
+Objectives and Device-level Configurations.
+2 Mohammad Alizadeh : Scheduling Mix-flows in Commodity Datacenters
+with Karuna.
+3 Ethan Katz-Bassett : An Internet-Wide Analysis of Traffic Policing.
+4 Aditya Akella : Fast Control Plane Analysis Using an Abstract
+Representation.
+5 Ratul Mahajan : ProjecToR - Agile Reconfigurable Data Center
+Interconnect.
+6 Ramesh Govindan : Evolve or Die - High-Availability Design
+Principles Drawn from Googles Network Infrastructure.
+7 Aditya Akella : AC/DC TCP - Virtual Congestion Control Enforcement
+for Datacenter Networks.
+8 Deepak Ganesan : Braidio - An Integrated Active-Passive Radio for
+Mobile Devices with Asymmetric Energy Budgets.
+9 Srikanth Kandula : Dynamic Pricing and Traffic Engineering for
+Timely Inter-Datacenter Transfers.
+10 Vyas Sekar : Via - Improving Internet Telephony Call Quality Using
+Predictive Relay Selection.
+11 Ramesh Govindan : WebPerf - Evaluating What-If Scenarios for
+Cloud-hosted Web Applications.
+12 Vyas Sekar : One Sketch to Rule Them All - Rethinking Network Flow
+Monitoring with UnivMon.
+13 Sylvia Ratnasamy : The Deforestation of L2.
+14 Minlan Yu : Trumpet - Timely and Precise Triggers in Data
+Centers.
+15 Mohammad Alizadeh : NUMFabric - Fast and Flexible Bandwidth
+Allocation in Datacenters.
+16 Nick Feamster : PISCES - A Programmable, Protocol-Independent
+Software Switch.
+17 Mohammad Alizadeh : Packet Transactions - High-Level Programming
+for Line-Rate Switches.
+18 Mohammad Alizadeh : Programmable Packet Scheduling at Line Rate.
+19 Vyas Sekar : CS2P - Improving Video Bitrate Selection and
+Adaptation with Data-Driven Throughput Prediction.
+20 Swarun Kumar : Eliminating Channel Feedback in Next-Generation
+Cellular Networks.
+21 Sachin Katti : Neutral Net Neutrality.
+22 Deepak Ganesan : Enabling Practical Backscatter Communication for
+On-body Sensors.
+
+Mohammad Alizadeh 4
+Vyas Sekar 3
+Deepak Ganesan 2
+Aditya Akella 2
+Ramesh Govindan 2
+Ratul Mahajan 2
+Ethan Katz-Bassett 1
+Sylvia Ratnasamy 1
+Swarun Kumar 1
+Minlan Yu 1
+Nick Feamster 1
+Srikanth Kandula 1
+Sachin Katti 1
