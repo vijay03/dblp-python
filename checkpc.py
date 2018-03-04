@@ -37,6 +37,18 @@ for x in open("osdi16-pc.txt", "r"):
     xx = x.split(",")
     pc["2016"]["osdi"].append(xx[0])
 
+for x in open("nsdi15-pc.txt", "r"):
+    xx = x.split(",")
+    pc["2015"]["nsdi"].append(xx[0])
+
+for x in open("nsdi16-pc.txt", "r"):
+    xx = x.split(",")
+    pc["2016"]["nsdi"].append(xx[0])
+
+for x in open("nsdi17-pc.txt", "r"):
+    xx = x.split(",")
+    pc["2017"]["nsdi"].append(xx[0])
+
 for x in open("atc17-pc.txt", "r"):
     xx = x.split(",")
     pc["2017"]["usenix"].append(xx[0])
@@ -119,6 +131,9 @@ def check_pc(conf, year, conf_short):
 # check_pc("fast", "2018", "FAST")
 # check_pc("osdi", "2016", "OSDI")
 # check_pc("usenix", "2017", "USENIX Annual Technical Conference")
+# check_pc("nsdi", "2015", "NSDI")
+# check_pc("nsdi", "2016", "NSDI")
+# check_pc("nsdi", "2017", "NSDI")
 # check_pc("popl", "2017", "POPL")
 # check_pc("pldi", "2017", "PLDI")
 # check_pc("sigcomm", "2017", "SIGCOMM")
@@ -126,5 +141,5 @@ def check_pc(conf, year, conf_short):
 # check_pc("asplos", "2017", "ASPLOS")
 # check_pc("isca", "2017", "ISCA")
 # check_pc("sosp", "2015", "SOSP")
-check_pc("sigcomm", "2016", "SIGCOMM")
+# check_pc("sigcomm", "2016", "SIGCOMM")
 
