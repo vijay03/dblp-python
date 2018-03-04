@@ -75,7 +75,10 @@ PLDI    | 2018 |   55 |    8   |  14.5 |
 ATC     | 2017 |   63 |   10   |  15.9 |
 PLDI    | 2017 |   47 |    8   |  17.0 |
 Eurosys | 2017 |   41 |    7   |  17.1 |
+NSDI    | 2015 |   42 |    8   |  19.1 |
+NSDI    | 2016 |   44 |    9   |  20.4 |
 OSDI    | 2016 |   47 |   10   |  21.3 |
+NSDI    | 2017 |   46 |   10   |  21.7 |
 SOSP    | 2015 |   30 |    7   |  23.3 |
 ISCA    | 2017 |   54 |   17   |  31.5 |
 FAST    | 2018 |   24 |    8   |  33.3 |
@@ -83,5 +86,28 @@ SIGMOD  | 2017 |  102 |   35   |  34.3 |
 SOSP    | 2017 |   39 |   14   |  35.9 |
 SIGCOMM | 2017 |   36 |   14   |  38.9 |            
 SIGCOMM | 2016 |   39 |   22   |  56.4 |            
-    
+
+Seperately showing different conferences, sorted by year.
+
+| Conference | Year | Total Papers | PC-Papers | % of PC-Papers |
+|-------------|:-------------:| -----:|----:|----:|
+NSDI    | 2015 |   42 |    8   |  19.1 |
+NSDI    | 2016 |   44 |    9   |  20.4 |
+NSDI    | 2017 |   46 |   10   |  21.7 |
+
+| Conference | Year | Total Papers | PC-Papers | % of PC-Papers |
+|-------------|:-------------:| -----:|----:|----:| 
+PLDI    | 2017 |   47 |    8   |  17.0 |
+PLDI    | 2018 |   55 |    8   |  14.5 | 
+
+| Conference | Year | Total Papers | PC-Papers | % of PC-Papers |
+|-------------|:-------------:| -----:|----:|----:|
+SIGCOMM | 2016 |   39 |   22   |  56.4 | 
+SIGCOMM | 2017 |   36 |   14   |  38.9 |            
+     
+| Conference | Year | Total Papers | PC-Papers | % of PC-Papers |
+|-------------|:-------------:| -----:|----:|----:|
+SOSP    | 2015 |   30 |    7   |  23.3 |
+SOSP    | 2017 |   39 |   14   |  35.9 |
+
 PLDI 2018 information contributed by the PC Chair, Dan Grossman.
