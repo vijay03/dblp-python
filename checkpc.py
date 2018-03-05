@@ -4,10 +4,11 @@ import operator
 import pickle
 from collections import defaultdict
 
-#verbose = True
-verbose = False
+verbose = True
+#verbose = False
 
 pc = {}
+pc["2014"] = defaultdict(list)
 pc["2015"] = defaultdict(list)
 pc["2016"] = defaultdict(list)
 pc["2017"] = defaultdict(list)
@@ -69,11 +70,29 @@ for x in open("popl17-pc.txt", "r"):
 for x in open("pldi17-pc.txt", "r"):
     pc["2017"]["pldi"].append(x.strip())
 
+for x in open("mobicom17-pc.txt", "r"):
+    pc["2017"]["mobicom"].append(x.strip())
+
+for x in open("mobicom16-pc.txt", "r"):
+    pc["2016"]["mobicom"].append(x.strip())
+
+for x in open("mobicom15-pc.txt", "r"):
+    pc["2015"]["mobicom"].append(x.strip())
+
+for x in open("mobicom14-pc.txt", "r"):
+    pc["2014"]["mobicom"].append(x.strip())
+
 for x in open("sigcomm17-pc.txt", "r"):
     pc["2017"]["sigcomm"].append(x.strip())
 
 for x in open("sigcomm16-pc.txt", "r"):
     pc["2016"]["sigcomm"].append(x.strip())
+
+for x in open("sigcomm14-pc.txt", "r"):
+    pc["2014"]["sigcomm"].append(x.strip())
+    
+for x in open("sigcomm15-pc.txt", "r"):
+    pc["2015"]["sigcomm"].append(x.strip())
     
 for x in open("sigmod17-pc.txt", "r"):
     pc["2017"]["sigmod"].append(x.strip())
@@ -90,7 +109,7 @@ for x in open("asplos17-pc.txt", "r"):
 # to identify the values for the conference you are interested in.
 #
 # pc[year][conf] needs to be setup before check_pc is invoked.
-    
+
 def check_pc(conf, year, conf_short):
     pc_papers = {}
     pc_papers_titles = set()
@@ -136,10 +155,15 @@ def check_pc(conf, year, conf_short):
 # check_pc("nsdi", "2017", "NSDI")
 # check_pc("popl", "2017", "POPL")
 # check_pc("pldi", "2017", "PLDI")
-# check_pc("sigcomm", "2017", "SIGCOMM")
 # check_pc("sigmod", "2017", "SIGMOD Conference")
 # check_pc("asplos", "2017", "ASPLOS")
 # check_pc("isca", "2017", "ISCA")
 # check_pc("sosp", "2015", "SOSP")
+# check_pc("sigcomm", "2017", "SIGCOMM")
 # check_pc("sigcomm", "2016", "SIGCOMM")
-
+# check_pc("sigcomm", "2014", "SIGCOMM")
+# check_pc("sigcomm", "2015", "SIGCOMM")
+# check_pc("mobicom", "2017", "MobiCom")
+# check_pc("mobicom", "2016", "MobiCom")
+# check_pc("mobicom", "2015", "MobiCom")
+# check_pc("mobicom", "2014", "MobiCom")
