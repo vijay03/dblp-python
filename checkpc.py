@@ -8,6 +8,7 @@ verbose = True
 #verbose = False
 
 pc = {}
+pc["2013"] = defaultdict(list)
 pc["2014"] = defaultdict(list)
 pc["2015"] = defaultdict(list)
 pc["2016"] = defaultdict(list)
@@ -18,92 +19,22 @@ pc["2018"] = defaultdict(list)
 ## and populate the dictionary. pc[year][conf] is a list of PC members
 ## for that conference.
 
-for x in open("sosp17-pc.txt", 'r'):
-    xx = x.split(",")
-    pc["2017"]["sosp"].append(xx[0])
+def splitcomma(filename, year, conf):
+    global pc
+    for x in open(filename, 'r'):
+        xx = x.split(",")
+        pc[year][conf].append(xx[0].strip())
 
-for x in open("sosp15-pc.txt", 'r'):
-    xx = x.split(",")
-    pc["2015"]["sosp"].append(xx[0])
-    
-for x in open("eurosys17-pc.txt", "r"):
-    xx = x.split(",")
-    pc["2017"]["eurosys"].append(xx[0])
-
-for x in open("fast18-pc.txt", "r"):
-    xx = x.split(",")
-    pc["2018"]["fast"].append(xx[0])
-
-for x in open("osdi16-pc.txt", "r"):
-    xx = x.split(",")
-    pc["2016"]["osdi"].append(xx[0])
-
-for x in open("nsdi15-pc.txt", "r"):
-    xx = x.split(",")
-    pc["2015"]["nsdi"].append(xx[0])
-
-for x in open("nsdi16-pc.txt", "r"):
-    xx = x.split(",")
-    pc["2016"]["nsdi"].append(xx[0])
-
-for x in open("nsdi17-pc.txt", "r"):
-    xx = x.split(",")
-    pc["2017"]["nsdi"].append(xx[0])
-
-for x in open("atc17-pc.txt", "r"):
-    xx = x.split(",")
-    pc["2017"]["usenix"].append(xx[0])
-
-for x in open("popl18-pc.txt", "r"):
-    xx = x.split(",")
-    pc["2018"]["popl"].append(xx[0])
-
+def direct(filename, year, conf):
+    global pc
+    for x in open(filename, 'r'):
+        pc[year][conf].append(x.strip())
+        
 # - for isca    
 for x in open("isca17-pc.txt", "r"):
     xx = x.split("-")
     pc["2017"]["isca"].append(xx[0].strip())
-    
-# special for popl 17, just use names as is
-for x in open("popl17-pc.txt", "r"):
-    pc["2017"]["popl"].append(x.strip())
-
-for x in open("pldi17-pc.txt", "r"):
-    pc["2017"]["pldi"].append(x.strip())
-
-for x in open("mobicom17-pc.txt", "r"):
-    pc["2017"]["mobicom"].append(x.strip())
-
-for x in open("mobicom16-pc.txt", "r"):
-    pc["2016"]["mobicom"].append(x.strip())
-
-for x in open("mobicom15-pc.txt", "r"):
-    pc["2015"]["mobicom"].append(x.strip())
-
-for x in open("mobicom14-pc.txt", "r"):
-    pc["2014"]["mobicom"].append(x.strip())
-
-for x in open("sigcomm17-pc.txt", "r"):
-    pc["2017"]["sigcomm"].append(x.strip())
-
-for x in open("sigcomm16-pc.txt", "r"):
-    pc["2016"]["sigcomm"].append(x.strip())
-
-for x in open("sigcomm14-pc.txt", "r"):
-    pc["2014"]["sigcomm"].append(x.strip())
-    
-for x in open("sigcomm15-pc.txt", "r"):
-    pc["2015"]["sigcomm"].append(x.strip())
-    
-for x in open("sigmod17-pc.txt", "r"):
-    pc["2017"]["sigmod"].append(x.strip())
-
-for x in open("vldb17-pc.txt", "r"):
-    pc["2017"]["vldb"].append(x.strip())
-
-for x in open("asplos17-pc.txt", "r"):
-    xx = x.split(",")
-    pc["2017"]["asplos"].append(xx[0])
-    
+        
 # The main heart of the logic. 'conf', 'conf_short' both need to be
 # the values that DBLP sees for this conference. See the many examples
 # to identify the values for the conference you are interested in.
@@ -167,3 +98,31 @@ def check_pc(conf, year, conf_short):
 # check_pc("mobicom", "2016", "MobiCom")
 # check_pc("mobicom", "2015", "MobiCom")
 # check_pc("mobicom", "2014", "MobiCom")
+
+# Read in the files and populate the PC
+splitcomma("asplos17-pc.txt", "2017", "asplos")
+splitcomma("popl18-pc.txt", "2018", "popl")
+splitcomma("atc17-pc.txt", "2017", "usenix")
+splitcomma("nsdi15-pc.txt", "2015", "nsdi")
+splitcomma("nsdi16-pc.txt", "2016", "nsdi")
+splitcomma("nsdi17-pc.txt", "2017", "nsdi")
+splitcomma("osdi16-pc.txt", "2016", "osdi")
+splitcomma("fast18-pc.txt", "2018", "fast")
+splitcomma("eurosys17-pc.txt", "2017", "eurosys")
+splitcomma("sosp15-pc.txt", "2015", "sosp")
+splitcomma("sosp17-pc.txt", "2017", "sosp")
+splitcomma("sosp13-pc.txt", "2013", "sosp")
+direct("popl17-pc.txt", "2017", "popl")
+direct("pldi17-pc.txt", "2017", "pldi")
+direct("mobicom14-pc.txt", "2015", "mobicom")
+direct("mobicom15-pc.txt", "2015", "mobicom")
+direct("mobicom16-pc.txt", "2016", "mobicom")
+direct("mobicom17-pc.txt", "2017", "mobicom")
+direct("sigcomm17-pc.txt", "2017", "sigcomm")
+direct("sigcomm16-pc.txt", "2016", "sigcomm")
+direct("sigcomm14-pc.txt", "2014", "sigcomm")
+direct("sigcomm15-pc.txt", "2015", "sigcomm")
+direct("sigmod17-pc.txt", "2017", "sigmod")
+direct("vldb17-pc.txt", "2017", "vldb")
+
+check_pc("sosp", "2013", "SOSP")

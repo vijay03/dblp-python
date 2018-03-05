@@ -1,0 +1,28 @@
+David G. Andersen , CMU
+Philip Levis , Stanford
+Herbert Bos , VU
+Shan Lu , University of Wisconsin
+George Candea , EPFL
+James Mickens , MSR
+Haibo Chen , Shanghai Jiao Tong University
+Robert Tappan Morris , MIT
+Mike Dahlin , Google and UT Austin
+John Ousterhout , Stanford
+Kevin Elphinstone , UNSW and NICTA
+Robbert van Renesse , Cornell
+Bryan Ford , Yale
+Timothy Roscoe , ETH Zurich
+Steven Hand , Cambridge
+Mike Swift , University of Wisconsin
+Jon Howell , MSR
+Michael Walfish , UT Austin
+Rebecca Isaacs , MSR
+Helen Wang , MSR
+Anthony Joseph , UC Berkeley
+John Wilkes , Google
+Sam King , UIUC
+Nickolai Zeldovich , MIT
+Eddie Kohler , Harvard
+Lidong Zhou , MSR Asia
+Arvind Krishnamurthy , University of Washington
+Yuanyuan Zhou 0001 , UCSD
