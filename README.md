@@ -71,15 +71,21 @@ PC-Papers. Each PC-Authored paper is only counted once.
 |-------------|:-------------:| -----:|----:|----:|
 POPL    | 2017 |   64 |    6   |  9.4  |
 ASPLOS  | 2017 |   56 |    7   |  12.5 |
+CoNEXT		| 2015 |	40	|	5	|	12.50
 PLDI    | 2018 |   55 |    8   |  14.5 |  
 ATC     | 2017 |   63 |   10   |  15.9 |
 PLDI    | 2017 |   47 |    8   |  17.0 |
 Eurosys | 2017 |   41 |    7   |  17.1 |
+CoNEXT		| 2017 |	39	|	7	|	17.95
 NSDI    | 2015 |   42 |    8   |  19.1 |
+CoNEXT		| 2014 |	36	|	7	|	19.44
+CoNEXT		| 2013 | 	30	|	6	|	20.00 |
 NSDI    | 2016 |   44 |    9   |  20.4 |
 OSDI    | 2016 |   47 |   10   |  21.3 |
 NSDI    | 2017 |   46 |   10   |  21.7 |
 SOSP    | 2015 |   30 |    7   |  23.3 |
+CoNEXT	| 2012 |   32 |	  9    | 28.12 |
+CoNEXT		| 2016 |	35	|	11	|	31.43
 ISCA    | 2017 |   54 |   17   |  31.5 |
 FAST    | 2018 |   24 |    8   |  33.3 |
 SIGMOD  | 2017 |  102 |   35   |  34.3 |          
@@ -127,4 +133,15 @@ SOSP    | 2013 |   30 |   11   |  36.7 |
 SOSP    | 2015 |   30 |    7   |  23.3 |
 SOSP    | 2017 |   39 |   14   |  35.9 |
 
+ Conference | Year | Total Papers | PC-Papers | % of PC-Papers |
+|-------------|:-------------:| -----:|----:|----:|
+CoNEXT		| 2012 |	32	|	9	|	28.12
+CoNEXT		| 2013 | 	30	|	6	|	20.00
+CoNEXT		| 2014 |	36	|	7	|	19.44
+CoNEXT		| 2015 |	40	|	5	|	12.50
+CoNEXT		| 2016 |	35	|	11	|	31.43
+CoNEXT		| 2017 |	39	|	7	|	17.95
+
+
 PLDI 2018 information contributed by the PC Chair, Dan Grossman.
+CoNEXT information contributed by Marco Mellia and Roberto Marturano.
