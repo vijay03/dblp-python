@@ -201,6 +201,9 @@ def getvenueauthorsbypaper(venue_str, venue_short):
         if ptext:
             if "-" in ptext[0]:
                 a, b = ptext[0].split("-")
+                if int(b) < int(a):
+                    # wrong metadata, just ignore and add
+                    each_ans = [y.text for y in x.findall("./authors/author")]
                 if (int(b) - int(a)) > 5:
                     each_ans = [y.text for y in x.findall("./authors/author")]
 

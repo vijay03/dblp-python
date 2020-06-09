@@ -45,13 +45,17 @@ mentioned above. The `conf` used in `pc` and `check_pc` must match.
 of papers with at least one PC member as author, and the percentage of
 total papers authored by PC members.
 
-### Same Output ###
+### Sample Output ###
 
-```
-usenix 2017
-Total Papers: 63
-PC-Paper Count: 10
-Percentage of PC-authored papers:  15.87
+``
+PC Paper # 1
+Title:  ABC
+PC Member who is author: DEF
+
+ConfConf 2019
+Total papers:  62
+PC Papers:  18
+Percentage:  29.0
 ```      
     
 ### Caveats ###
@@ -85,6 +89,7 @@ OSDI    | 2016 |   47 |   10   |  21.3 |
 NSDI    | 2017 |   46 |   10   |  21.7 |
 SOSP    | 2015 |   30 |    7   |  23.3 |
 CoNEXT	| 2012 |   32 |	  9    | 28.12 |
+ISCA    | 2019 |   62 |   18   |  29.0 |
 CoNEXT		| 2016 |	35	|	11	|	31.43
 ISCA    | 2017 |   54 |   17   |  31.5 |
 FAST    | 2018 |   24 |    8   |  33.3 |
