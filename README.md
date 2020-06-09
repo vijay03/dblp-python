@@ -47,7 +47,7 @@ total papers authored by PC members.
 
 ### Sample Output ###
 
-``
+```
 PC Paper # 1
 Title:  ABC
 PC Member who is author: DEF
