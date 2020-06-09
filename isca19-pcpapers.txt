@@ -1,0 +1,76 @@
+PC Paper # 1
+Title:  Janus - optimizing memory and storage support for non-volatile memory systems.
+PC Member who is author: Gennady Pekhimenko
+
+PC Paper # 2
+Title:  Filter caching for free - the untapped potential of the store-buffer.
+PC Member who is author: David Black-Schaffer
+
+PC Paper # 3
+Title:  Triad-NVM - persistency for integrity-protected and encrypted non-volatile memories.
+PC Member who is author: Yan Solihin
+
+PC Paper # 4
+Title:  Perceptron-based prefetch filtering.
+PC Member who is author: Paul Gratz
+
+PC Paper # 5
+Title:  CoNDA - efficient cache coherence support for near-data accelerators.
+PC Member who is author: Brandon Lucia
+
+PC Paper # 6
+Title:  A stochastic-computing based deep learning framework using adiabatic quantum-flux-parametron superconducting technology.
+PC Member who is author: Xuehai Qian
+
+PC Paper # 7
+Title:  DeepAttest - an end-to-end attestation framework for deep neural networks.
+PC Member who is author: Jishen Zhao
+
+PC Paper # 8
+Title:  Secure TLBs.
+PC Member who is author: Jakub Szefer
+
+PC Paper # 9
+Title:  TIE - energy-efficient tensor train-based inference engine for deep neural network.
+PC Member who is author: Xuehai Qian
+
+PC Paper # 10
+Title:  PES - proactive event scheduling for responsive and energy-efficient mobile web computing.
+PC Member who is author: Yuhao Zhu
+
+PC Paper # 11
+Title:  Duality cache for data parallel acceleration.
+PC Member who is author: Reetuparna Das
+
+PC Paper # 12
+Title:  Interplay between hardware prefetcher and page eviction policy in CPU-GPU unified virtual memory.
+PC Member who is author: Jun Yang
+
+PC Paper # 13
+Title:  Energy-efficient video processing for virtual reality.
+PC Member who is author: Yuhao Zhu
+
+PC Paper # 14
+Title:  MGPUSim - enabling multi-GPU performance modeling and optimization.
+PC Member who is author: John Kim
+
+PC Paper # 15
+Title:  IntelliNoC - a holistic design framework for energy-efficient and reliable on-chip communication for manycores.
+PC Member who is author: Ahmed Louri
+
+PC Paper # 16
+Title:  TPShare - a time-space sharing scheduling abstraction for shared cloud via vertical labels.
+PC Member who is author: Xuehai Qian
+
+PC Paper # 17
+Title:  Sparse ReRAM engine - joint exploration of activation and weight sparsity in compressed neural networks.
+PC Member who is author: Chia-Lin Yang
+
+PC Paper # 18
+Title:  Cambricon-F - machine learning computers with fractal von neumann architecture.
+PC Member who is author: Yunji Chen
+
+ISCA 2019
+Total papers:  62
+PC Papers:  18
+Percentage:  29.0

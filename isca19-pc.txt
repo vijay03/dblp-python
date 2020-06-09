@@ -1,0 +1,74 @@
+Alaa Alameldeen, Intel
+Yungang Bao, ICT - CAS
+Nathan Beckmann, CMU
+David Black-Schaffer, Uppsala University
+Pradip Bose, IBM Research
+Ramon Canal, UPC
+Lizhong Chen, Oregon State
+Yunji Chen, ICT - CAS
+Reetuparna Das, Michigan
+Yasuko Eckert, AMD Research
+Mattan Erez, University of Texas
+Dan Ernst, Cray
+Mike Ferdman, SUNY Stonybrook
+Chris Fletcher, University of Illinois
+Maya Gokhale, LLNL
+Paul Gratz, Texas A&M University
+Xiaochen Guo, Lehigh University
+Christopher Hughes, Intel
+Jaehyuk Huh, KAIST
+Koji Inoue, Kyushu University
+Xun (Steve) Jian, Virginia Tech
+Mahmut T. Kandemir, Penn State
+Ulya Karpuzcu, University Minnesota/Brown University
+Samira Khan, University Virginia
+John Kim, KAIST
+Nam Sung Kim, Samsung
+Michel Kinsy, Boston University
+Tushar Krishna, Georgia Tech
+Rakesh Kumar, University of Illinois
+Benjamin Lee, Duke University
+Hsien-Hsin Lee, Facebook
+Jae W. Lee, Seoul National University
+Hai (Helen) Li, Duke University
+Jing Li, University of Wisconsin
+Ahmed Louri, George Washington University
+Brandon Lucia, CMU
+Diana Marculescu, CMU
+Andres Marquez, Pacific Northwest National Labs
+Jason Mars, University of Michigan
+Jose MartÌnez, Cornell University
+Gokhan Memik, Northwestern University
+Shubu Mukherjee, Marvell
+Abdullah Muzahid, Texas A&M University
+Ravi Nair, IBM Research
+Mike O'Connor, Nvidia
+Gennady Pekhimenko, University of Toronto
+Gilles Pokam, Intel
+Dmitry Ponomarev, SUNY Binghamton
+Andrew Putnam, Microsoft
+Xuehai Qian, University of Southern California
+Brandon Reagen, Facebook
+Steve Reinhardt, Microsoft
+Jose Renau, UC Santa-Cruz
+Adrian Sampson, Cornell University
+Joshua San Miguel, University of Wisconsin
+Simha Sethumadhavan, Columbia University
+Matt Sinclair, University of Wisconsin, AMD Research
+Yan Solihin, University of Central Florida
+Daniel Sorin, Duke University
+Jeff Stuecheli, IBM
+Edward Suh, Cornell University
+Jakub Szefer, Yale University
+Mohit Tiwari, UT Austin
+Pinar Tozun, IT University of Copenhagen
+Ashish Venkat, University of Virginia
+David Wentzlaff, Princeton University
+Carole-Jean Wu, Arizona State University/Facebook
+Yuan Xie, UC Santa Barbara
+Chia-Lin Yang, NTU
+Jun Yang, University of Pittsburgh
+Cliff Young, Google
+Jishen Zhao, UCSD
+Huiyang Zhou, North Carolina State
+Yuhao Zhu, University of Rochester
